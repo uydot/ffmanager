@@ -31,7 +31,7 @@ class CustomDocument extends Document {
           />
           <link
             rel="icon"
-            href="/favicon.ico"
+            href="/futicon.ico"
           />
           <link
             rel="icon"

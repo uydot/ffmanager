@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import { Box, Button, ListItem } from '@mui/material';
 
 export const NavItem = (props) => {
-  const { href, icon, title, ...others } = props;
+  const { href, icon, title, inactive, ...others } = props;
   const router = useRouter();
-  const active = href ? (router.pathname === href) : false;
+  const active = !inactive ? (href ? (router.pathname === href) : false) : true;
 
   return (
     <ListItem

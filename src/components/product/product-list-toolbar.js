@@ -11,6 +11,7 @@ import {
 import { Download as DownloadIcon } from '../../icons/download';
 import { Search as SearchIcon } from '../../icons/search';
 import { Upload as UploadIcon } from '../../icons/upload';
+import AdapterDateFns from '@mui/lab/AdapterDateFns';
 
 export const ProductListToolbar = (props) => (
   <Box {...props}>
@@ -27,7 +28,7 @@ export const ProductListToolbar = (props) => (
         sx={{ m: 1 }}
         variant="h4"
       >
-        Products
+        Canchas 
       </Typography>
       <Box sx={{ m: 1 }}>
         <Button
@@ -46,7 +47,7 @@ export const ProductListToolbar = (props) => (
           color="primary"
           variant="contained"
         >
-          Add products
+          Agregar cancha
         </Button>
       </Box>
     </Box>

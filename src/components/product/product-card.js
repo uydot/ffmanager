@@ -21,7 +21,7 @@ export const ProductCard = ({ product, ...rest }) => (
         }}
       >
         <Avatar
-          alt="Product"
+          alt="Canchas"
           src={product.media}
           variant="square"
         />

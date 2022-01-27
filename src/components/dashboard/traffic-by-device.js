@@ -17,7 +17,7 @@ export const TrafficByDevice = (props) => {
         hoverBorderColor: '#FFFFFF'
       }
     ],
-    labels: ['Desktop', 'Tablet', 'Mobile']
+    labels: ['Cancha 1', 'Cancha 2', 'Cancha 3']
   };
 
   const options = {
@@ -44,28 +44,28 @@ export const TrafficByDevice = (props) => {
 
   const devices = [
     {
-      title: 'Desktop',
+      title: 'Cancha 1',
       value: 63,
-      icon: LaptopMacIcon,
+      icon: TabletIcon,
       color: '#3F51B5'
     },
     {
-      title: 'Tablet',
+      title: 'Cancha 2',
       value: 15,
       icon: TabletIcon,
       color: '#E53935'
     },
     {
-      title: 'Mobile',
+      title: 'Cancha 3',
       value: 23,
-      icon: PhoneIcon,
+      icon: TabletIcon,
       color: '#FB8C00'
     }
   ];
 
   return (
     <Card {...props}>
-      <CardHeader title="Traffic by Device" />
+      <CardHeader title=" Porcentaje de ocupacion de cada cancha" />
       <Divider />
       <CardContent>
         <Box

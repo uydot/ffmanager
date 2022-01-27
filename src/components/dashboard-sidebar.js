@@ -20,22 +20,47 @@ const items = [
   {
     href: '/',
     icon: (<ChartBarIcon fontSize="small" />),
-    title: 'Dashboard'
+    title: 'Panel Principal'
   },
   {
     href: '/customers',
     icon: (<UsersIcon fontSize="small" />),
-    title: 'Customers'
+    title: 'Usuarios'
   },
   {
     href: '/products',
     icon: (<ShoppingBagIcon fontSize="small" />),
-    title: 'Products'
+    title: 'Canchas'
+  },
+  {
+    href: '/products2',
+    icon: (<ShoppingBagIcon fontSize="small" />),
+    title: 'Cancha Techada'
+  },
+  {
+    href: '/products1',
+    icon: (<ShoppingBagIcon fontSize="small" />),
+    title: 'Cesped Natural'
+  },
+  {
+    href: '/e',
+    icon: (<ShoppingBagIcon fontSize="small" />),
+    title: 'Gimnasio'
+  },
+  {
+    href: '/e',
+    icon: (<ShoppingBagIcon fontSize="small" />),
+    title: 'Las Acacias'
+  },
+  {
+    href: '/e',
+    icon: (<ShoppingBagIcon fontSize="small" />),
+    title: 'Parrillero'
   },
   {
     href: '/account',
     icon: (<UserIcon fontSize="small" />),
-    title: 'Account'
+    title: 'Mi Cuenta'
   },
   {
     href: '/settings',
@@ -124,24 +149,16 @@ export const DashboardSidebar = (props) => {
                   color="inherit"
                   variant="subtitle1"
                 >
-                  Acme Inc
+                  FFManager
                 </Typography>
                 <Typography
                   color="neutral.400"
                   variant="body2"
                 >
-                  Your tier
-                  {' '}
-                  : Premium
+                 Gestor de Canchas
                 </Typography>
               </div>
-              <SelectorIcon
-                sx={{
-                  color: 'neutral.500',
-                  width: 14,
-                  height: 14
-                }}
-              />
+              
             </Box>
           </Box>
         </div>
@@ -172,13 +189,13 @@ export const DashboardSidebar = (props) => {
             color="neutral.100"
             variant="subtitle2"
           >
-            Need more features?
+            Club Atletico Peñarol
           </Typography>
           <Typography
             color="neutral.500"
             variant="body2"
           >
-            Check out our Pro solution template.
+            Complejo Juveniles
           </Typography>
           <Box
             sx={{
@@ -193,24 +210,10 @@ export const DashboardSidebar = (props) => {
           >
             <img
               alt="Go to pro"
-              src="/static/images/sidebar_pro.png"
+              src="/static/images/gim.jfif"
             />
           </Box>
-          <NextLink
-            href="https://material-kit-pro-react.devias.io/"
-            passHref
-          >
-            <Button
-              color="secondary"
-              component="a"
-              endIcon={(<OpenInNewIcon />)}
-              fullWidth
-              sx={{ mt: 2 }}
-              variant="contained"
-            >
-              Pro Live Preview
-            </Button>
-          </NextLink>
+          
         </Box>
       </Box>
     </>

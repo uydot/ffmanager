@@ -15,7 +15,7 @@ export const Sales = (props) => {
         borderRadius: 4,
         categoryPercentage: 0.5,
         data: [18, 5, 19, 27, 29, 19, 20],
-        label: 'This year',
+        label: 'Esta semana',
         maxBarThickness: 10
       },
       {
@@ -25,11 +25,11 @@ export const Sales = (props) => {
         borderRadius: 4,
         categoryPercentage: 0.5,
         data: [11, 20, 12, 29, 30, 25, 13],
-        label: 'Last year',
+        label: 'Ultimo mes',
         maxBarThickness: 10
       }
     ],
-    labels: ['1 Aug', '2 Aug', '3 Aug', '4 Aug', '5 Aug', '6 Aug', '7 aug']
+    labels: ['1 Agosto', '2 Agosto', '3 Agosto', '4 Agosto', '5 Agosto', '6 Agosto', '7 Agosto']
   };
 
   const options = {
@@ -89,10 +89,10 @@ export const Sales = (props) => {
             endIcon={<ArrowDropDownIcon fontSize="small" />}
             size="small"
           >
-            Last 7 days
+            Ultimos 7 dias
           </Button>
         )}
-        title="Latest Sales"
+        title="Espacios utilizables vs Horas"
       />
       <Divider />
       <CardContent>
@@ -121,7 +121,7 @@ export const Sales = (props) => {
           endIcon={<ArrowRightIcon fontSize="small" />}
           size="small"
         >
-          Overview
+          Ver detalles
         </Button>
       </Box>
     </Card>

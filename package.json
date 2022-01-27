@@ -1,16 +1,19 @@
 {
-  "name": "material-kit-react",
-  "author": "Devias IO",
+  "homepage": "http://uydot.github.io/ffmanager",
+  "name": "ffmanager",
+  "author": "uyDot",
   "licence": "MIT",
   "version": "2.0.0",
   "private": false,
-  "scripts": {
+    "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
-    "lint-fix": "next lint --fix"
+    "lint-fix": "next lint --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/cache": "^11.5.0",
@@ -24,8 +27,9 @@
     "chart.js": "^3.5.1",
     "date-fns": "^2.25.0",
     "formik": "^2.1.5",
+    "gh-pages": "^3.2.3",
     "history": "^5.0.0",
-    "next": "^12.0.3-canary.7",
+    "next": "^10.0.1",
     "nprogress": "^0.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -37,6 +41,6 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-next": "12.0.3-canary.7"
+    "eslint-config-next": "^0.2.4"
   }
 }

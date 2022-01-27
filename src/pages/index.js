@@ -14,7 +14,7 @@ const Dashboard = () => (
   <>
     <Head>
       <title>
-        Dashboard | Material Kit
+        Panel Principal | FFManager
       </title>
     </Head>
     <Box
