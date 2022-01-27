@@ -105,7 +105,7 @@ function ProductSelectedItem() {
           <td>  <NavItem
               key={11111}
               href={'/products'}
-              title="Aceptar Seleccion"
+              title="Aceptar Sectores Seleccionados"
               inactive={true}
             /></td>
     
