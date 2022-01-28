@@ -48,6 +48,7 @@ function MaterialsSelected(){
       rows={rows}
       columns={columns}
       isCellEditable={(params) => params.row.cantidad % 2 === 0}
+      sx={{border: 2}}
     />
      
      </Box>
