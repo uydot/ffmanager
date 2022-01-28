@@ -58,6 +58,11 @@ const items = [
     title: 'Parrillero'
   },
   {
+    href: '/materials-selected',
+    icon: (<ShoppingBagIcon fontSize="small" />),
+    title: 'Materiales'
+  },
+  {
     href: '/account',
     icon: (<UserIcon fontSize="small" />),
     title: 'Mi Cuenta'

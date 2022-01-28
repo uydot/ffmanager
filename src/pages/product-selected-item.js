@@ -6,9 +6,7 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import { DashboardLayout } from '../components/dashboard-layout';
 import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from '@mui/material';
-import { height } from '@mui/system';
 import { NavItem } from '../components/nav-item';
-
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -34,9 +32,6 @@ divStyle : {
   height:'10px'
 }
 };
-
-
-
 
 function ProductSelectedItem() {
   const [colorSelected, setColorSelected] = useState(["white","white","white","white","white","white","white","white","white","white","white","white","white","white","white","white"])
@@ -70,6 +65,7 @@ function ProductSelectedItem() {
     setColorSelected(values => values.map((value) => newValue))
   }
 
+
   return (
     
     <Box sx={{
@@ -90,6 +86,8 @@ function ProductSelectedItem() {
       fontWeight: '700',
     }}
   >
+  
+     
 <div>
    <td><FormControlLabel
             control={
@@ -130,9 +128,8 @@ function ProductSelectedItem() {
       </Grid>
       </div>
       
-       
     </Box>
-     
+   
   );
 }
 
