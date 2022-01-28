@@ -20,9 +20,9 @@ const styles = {
       backgroundImage: `url("/static/images/cancha1.png")`
   },
   cardStyle : { 
-    width: '8vw',
+    width: '9vw',
     transitionDuration: '0.3s',
-    height: '6.4vw',
+    height: '8.5vw',
     opacity: 0.8,
     justify:'flex-end',
     backgroundColor: 'transparent',
