@@ -24,7 +24,9 @@ const styles = {
     transitionDuration: '0.3s',
     height: '6.4vw',
     opacity: 0.8,
+    justify:'flex-end',
     backgroundColor: 'transparent',
+   
 },
 divStyle : { 
   padding: '40',
@@ -84,6 +86,7 @@ function ProductSelectedItem() {
       textAlign: 'center',
       fontSize: '0.875rem',
       fontWeight: '700',
+      
     }}
   >
   
@@ -115,6 +118,7 @@ function ProductSelectedItem() {
       <Grid container spacing={0.5} columns={16} style={styles.paperContainer}>
         {Array.from(Array(16)).map((_, index) => (
           <Grid item xs={1} sm={4} md={4} key={index } spacing={1}>
+             <Box display="flex" justifyContent="space-around">
           <Card style={styles.cardStyle}>
           <CardContent >
            
@@ -122,7 +126,7 @@ function ProductSelectedItem() {
             
             </CardContent>
             </Card>
-       
+       </Box>
           </Grid>
         ))}
       </Grid>
