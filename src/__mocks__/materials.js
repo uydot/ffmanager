@@ -10,7 +10,7 @@ export const columns = [
       id: 1,
       name: "Siluetas",
       cantidad: 0,
-      stock: 30
+      stock: 40
       
     },
     {
