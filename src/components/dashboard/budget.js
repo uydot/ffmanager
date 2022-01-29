@@ -19,7 +19,7 @@ export const Budget = (props) => (
             gutterBottom
             variant="overline"
           >
-            Canchas completas habilitadas
+            Canchas optimas
           </Typography>
           <Typography
             color="textPrimary"
