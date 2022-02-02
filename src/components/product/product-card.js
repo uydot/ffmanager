@@ -64,9 +64,10 @@ export const ProductCard = ({ product, ...rest }) => (
             sx={{ pl: 1 }}
             variant="body2"
           >
-            Updated 2hr ago
+            Reservado recientemente
           </Typography>
         </Grid>
+
         <Grid
           item
           sx={{
@@ -83,7 +84,7 @@ export const ProductCard = ({ product, ...rest }) => (
           >
             {product.totalDownloads}
             {' '}
-            Downloads
+            Reservas este mes
           </Typography>
         </Grid>
       </Grid>
