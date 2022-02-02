@@ -17,7 +17,7 @@ export const ProductCard = ({ product, ...rest }) => (
         sx={{
           display: 'flex',
           justifyContent: 'center',
-          pb: 3
+          pb: 2
         }}
       >
         <Avatar
@@ -42,13 +42,13 @@ export const ProductCard = ({ product, ...rest }) => (
         {product.description}
       </Typography>
     </CardContent>
-    <Box sx={{ flexGrow: 1 }} />
+    <Box sx={{ flexGrow: 1 , backgroundColor: '#35BC85'}} />
     <Divider />
     <Box sx={{ p: 2 }}>
       <Grid
         container
         spacing={2}
-        sx={{ justifyContent: 'space-between' }}
+        sx={{ justifyContent: 'space-between'}}
       >
         <Grid
           item
@@ -59,7 +59,7 @@ export const ProductCard = ({ product, ...rest }) => (
         >
           <ClockIcon color="action" />
           <Typography
-            color="textSecondary"
+            color="red"
             display="inline"
             sx={{ pl: 1 }}
             variant="body2"
