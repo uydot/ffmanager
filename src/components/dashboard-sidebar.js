@@ -33,17 +33,17 @@ const items = [
     title: 'Canchas'
   },
   {
-    href: '/products2',
+    href: '/cancha-techada',
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Cancha Techada'
   },
   {
-    href: '/products1',
+    href: '/cesped-natural',
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Cesped Natural'
   },
   {
-    href: '/e',
+    href: '/gim',
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Gimnasio'
   },
