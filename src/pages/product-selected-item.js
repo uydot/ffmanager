@@ -22,7 +22,7 @@ const styles = {
   cardStyle : { 
     width: '9vw',
     transitionDuration: '0.3s',
-    height: '6.5vw',
+    height: '8.5vw',
     opacity: 0.8,
     justify:'flex-end',
     backgroundColor: 'transparent',
@@ -31,7 +31,7 @@ const styles = {
 divStyle : { 
   padding: '40',
   width: '48.5%',
-  height:'10px'
+  height:'20px'
 }
 };
 

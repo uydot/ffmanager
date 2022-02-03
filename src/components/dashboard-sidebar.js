@@ -48,12 +48,12 @@ const items = [
     title: 'Gimnasio'
   },
   {
-    href: '/e',
+    href: '/las-acacias',
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Las Acacias'
   },
   {
-    href: '/e',
+    href: '/others-products',
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Parrillero'
   },
