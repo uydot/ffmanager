@@ -122,7 +122,7 @@ function ProductSelectedItem() {
           <Card style={styles.cardStyle}>
           <CardContent >
            
-              <Button key={index} variant="outlined" style={{background:colorSelected[index], align:'center', display:'flex'}} onClick={() => {handleColor(index)}}>Sect-{index}</Button>
+              <Button key={index} variant="outlined" style={{background:colorSelected[index], align:'center', display:'flex', maxWidth: '130px', maxHeight: '130px', minWidth: '130px', minHeight: '130px'}} onClick={() => {handleColor(index)}}>Sect-{index+1}</Button>
             
             </CardContent>
             </Card>
