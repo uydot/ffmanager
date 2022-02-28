@@ -28,6 +28,11 @@ const items = [
     title: 'Usuarios'
   },
   {
+  href: '/actividades',
+  icon: (<ShoppingBagIcon fontSize="small" />),
+  title: 'Actividades'
+  },
+  {
     href: '/products',
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Canchas'

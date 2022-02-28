@@ -20,18 +20,17 @@ const styles = {
       backgroundImage: `url("/static/images/cancha1.png")`
   },
   cardStyle : { 
-    width: '9vw',
+    width: '10vw',
     transitionDuration: '0.3s',
-    height: '8.5vw',
+    height: '10.5vw',
     opacity: 0.8,
     justify:'flex-end',
     backgroundColor: 'transparent',
-   
 },
 divStyle : { 
-  padding: '40',
+  padding: '60',
   width: '48.5%',
-  height:'20px'
+  height:'40px'
 }
 };
 
@@ -82,7 +81,7 @@ function ProductSelectedItem() {
     
       borderColor: (theme) =>
         theme.palette.mode === 'dark' ? 'grey.800' : 'grey.300',
-      borderRadius: 2,
+      borderRadius: 5,
       textAlign: 'center',
       fontSize: '0.875rem',
       fontWeight: '700',
@@ -115,7 +114,7 @@ function ProductSelectedItem() {
   <p/>
 </div>
       <div style={styles.divStyle}>
-      <Grid container spacing={0.5} columns={16} style={styles.paperContainer}>
+      <Grid container spacing={0.1} columns={16} style={styles.paperContainer}>
         {Array.from(Array(16)).map((_, index) => (
           <Grid item xs={1} sm={1} md={4} key={index } spacing={1}>
              <Box display="flex" justifyContent="space-around">
