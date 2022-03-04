@@ -8,6 +8,8 @@ import { DashboardLayout } from '../components/dashboard-layout';
 import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from '@mui/material';
 import { NavItem } from '../components/nav-item';
 
+
+
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(2),
@@ -17,15 +19,16 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const styles = {
   paperContainer: {
-      backgroundImage: `url("/static/images/cancha1.png")`
+      backgroundImage: `url("/static/images/cancha1.png")`,
+      with: '100%'
   },
   cardStyle : { 
-    width: '10vw',
+    width: '8vw',
     transitionDuration: '0.3s',
-    height: '10.5vw',
-    opacity: 0.8,
+    height: '7.7vw',
+    opacity: 0.7,
     justify:'flex-end',
-    backgroundColor: 'transparent',
+    backgroundColor: 'grey',
 },
 divStyle : { 
   padding: '60',
@@ -91,6 +94,7 @@ function ProductSelectedItem() {
   
      
 <div>
+
    <td><FormControlLabel
             control={
               <Checkbox
@@ -114,14 +118,14 @@ function ProductSelectedItem() {
   <p/>
 </div>
       <div style={styles.divStyle}>
-      <Grid container spacing={0.1} columns={16} style={styles.paperContainer}>
+      <Grid container spacing={0.5} columns={16} style={styles.paperContainer}>
         {Array.from(Array(16)).map((_, index) => (
-          <Grid item xs={1} sm={1} md={4} key={index } spacing={1}>
+          <Grid item xs={1} sm={14} md={4} key={index} spacing={5}>
              <Box display="flex" justifyContent="space-around">
           <Card style={styles.cardStyle}>
-          <CardContent >
+          <CardContent  >
            
-              <Button key={index} variant="outlined" style={{background:colorSelected[index], align:'center', display:'flex', maxWidth: '130px', maxHeight: '130px', minWidth: '130px', minHeight: '130px'}} onClick={() => {handleColor(index)}}>Sect-{index+1}</Button>
+              <Button key={index} variant="outlined" style={{background:colorSelected[index], align:'center', display:'flex'}} onClick={() => {handleColor(index)}}>Sect-{index+1}</Button>
             
             </CardContent>
             </Card>
