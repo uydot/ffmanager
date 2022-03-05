@@ -376,10 +376,4 @@ function OtherProducts() {
   );
 }
 
-OtherProducts.getLayout = (page) => (
-    <DashboardLayout>
-      {page}
-    </DashboardLayout>
-  );
-  
-  export default OtherProducts;
+ 
